@@ -1,10 +1,11 @@
-# teach-react
+# react front 2 back
 A tutorial application to help teach component construction, prototyping, basic API verbs, props, and state. 
 Leverages a lambda BE.
 
 ## Instructions
 There are two branches here. Finished and master. Master is the bare bones app. Finished includes everything we worked on in the live demo.
 
+---
 
 ### The API base URL
 `https://fe-notes.herokuapp.com`
