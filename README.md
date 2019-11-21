@@ -5,6 +5,7 @@ Leverages a lambda BE.
 ## Instructions
 There are two branches here. Finished and master. Master is the bare bones app. Finished includes everything we worked on in the live demo.
 
+--- 
 
 ### The API base URL
 `https://fe-notes.herokuapp.com`
