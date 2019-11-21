@@ -12,24 +12,29 @@ There are two branches here. Finished and master. Master is the bare bones app. 
 
 #### getNotes
 `https://fe-notes.herokuapp.com/note/get/all`
+
 .get('https://fe-notes.herokuapp.com/note/get/all')
 
 
 #### addNote
 `https://fe-notes.herokuapp.com/note/create`
+
 .post('https://fe-notes.herokuapp.com/note/create', noteObject, { headers: { 'Content-Type': 'application/json' }})
 
 
 #### deleteNote
 `https://fe-notes.herokuapp.com/note/delete/`
+
 .delete('https://fe-notes.herokuapp.com/note/delete/'+id)
 
 
 #### noteDetail
 `https://fe-notes.herokuapp.com/note/get/`
+
 .get('https://fe-notes.herokuapp.com/note/get/'+noteID)
 
 
 #### updateNote
 `https://fe-notes.herokuapp.com/note/edit/`
+
 .put('https://fe-notes.herokuapp.com/note/edit/'+noteID, noteObject, { headers: { 'Content-Type': 'application/json' }})
